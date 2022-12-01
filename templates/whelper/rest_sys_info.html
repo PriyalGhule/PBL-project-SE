@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <style type="text/css">
+            #top-bar{
+                height:150px;
+                font-color:white;
+                background-color:#D4AFFD;
+                margin:0;
+            }
+            body{
+                margin:0 ;
+                padding:0;
+    
+            }
+            #top-bar2-text{
+                margin-top:30px;
+                margin-left:20px;
+                font-size:17px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                font-weight:bold;
+                color:white;
+                text-decoration:none;
+            }
+            #top-bar2-text:hover{
+                color:#A482CC;
+                border-bottom:2px solid;
+            border-color:#A482CC;
+            padding-bottom:2px;
+            }
+            #top-bar2{
+                height:50px;
+                background-color:#D4AFFD;
+                margin-left:500px;
+                padding-top:30px;
+                
+            }
+            #main-text{
+                font-size:60px;
+                margin:35px;
+                color: white; 
+                font-family: "Brush Script MT", cursive;
+                 text-shadow: 1px 1px 2px #082b34;
+                float:left;
+            }
+            h3{
+                color:#A482CC;
+                margin-left:35px;
+            }
+            h1{
+                color:#A482CC;
+                margin-left:35px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+            }
+            #heading{
+                text-decoration : underline;
+            }
+            #tool{
+                width:80px;
+                
+            }
+        
+        </style>
+    </head>    
+
+</body>
+<div id="top-bar">
+    <div id="main-text">Web Helper<img id="tool" src="http://127.0.0.1:8000/static/tool3.png"></div>
+    
+    <div id="top-bar2">
+        <a href="http://127.0.0.1:8000/homey" id="top-bar2-text">Home</a>
+        <a href="" id="top-bar2-text">Features</a>
+        <a href="" id="top-bar2-text">Download</a>
+        <a href="" id="top-bar2-text">Support</a>
+        <a href="http://127.0.0.1:8000/signin" id="top-bar2-text">Logout</a>
+        <a href="http://127.0.0.1:8000/faq" id="top-bar2-text">FAQs</a>
+        
+
+    </div></div>
+    <h1>System Health</h1>
+<h3 id="heading">CPU Times</h3>
+<h3>Time spent on processes by the User : {{ r17 }}</h3>
+<h3>Time spent on processes by the system : {{ r18 }}</h3>
+<h3> Time spent on processes by the Idle :  {{ r19 }}</h3>
+<h3>CPU Util : {{ r1 }}</h3>
+<h3>CPU Cores : {{ r2 }}</h3>
+<h3 id="heading">Ram Usage</h3>
+<h3> CPU frequencies : {{ r3 }}</h3>
+<h3>Total memory : {{ r4 }}</h3>
+<h3>Availabe memory : {{ r5 }}</h3>
+<h3> Used memory :{{ r6 }}</h3>
+<h3> Percentage used :{{ r7 }}</h3>
+<h3>Disk partitions :{{ r8 }}</h3>
+<h3 id="heading">Disk Usage</h3>
+<h3>Total memory : {{ r9 }}</h3>
+<h3>Free memory : {{ r10 }}</h3>
+<h3>Used memory : {{ r11 }}</h3>
+<h3>Percentage used : {{ r12 }}</h3>
+<h3 id="heading">Network Requests</h3>
+<h3>Total Bytes sent : {{ r13 }}</h3>
+<h3>Total Bytes received : {{ r14 }}</h3>
+<h3 id="heading">Monitor Battery</h3>
+<h3>Battery Percent : {{ r15 }}</h3>
+<h3>Seconds left : {{ r16 }}</h3>
+
+    
+
+
+</body></html>

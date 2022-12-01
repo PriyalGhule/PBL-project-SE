@@ -1,0 +1,301 @@
+<html>
+    <head>
+        <style type="text/css">
+            
+            #top-bar{
+                height:150px;
+                font-color:white;
+                background-color:#D4AFFD;
+                margin:0;
+            }
+            body{
+                margin:0 ;
+                padding:0;
+    
+            }
+           
+            #link{
+                border-radius: 10px;
+                transition: all 0.5s;
+                cursor: pointer;
+                height:40px;
+                width:300px;
+                background-color:#D4AFFD;
+                border:none;
+                radius:10px;
+                align:center;
+                margin-top:10px;
+                }
+    
+                #link:hover{
+                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                    background-color:#A482CC;
+                }
+            #main-text{
+                font-size:60px;
+                margin:35px;
+                color: white; 
+                font-family: "Brush Script MT", cursive;
+                 text-shadow: 1px 1px 2px #082b34;
+                float:left;
+            }
+            
+            #l-text{
+                color:white;
+                font-size:20px;
+                text-decoration:none;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+            }
+            #top-bar2{
+                height:50px;
+                background-color:#D4AFFD;
+                margin-left:500px;
+                padding-top:30px;
+            }
+            #top-bar2-text{
+                margin-top:30px;
+                margin-left:20px;
+                font-size:17px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                font-weight:bold;
+                color:white;
+                text-decoration:none;
+            }
+            #top-bar2-text:hover{
+                color:#A482CC;
+                border-bottom:2px solid;
+            border-color:#A482CC;
+            padding-bottom:2px;
+            }
+            #web1{
+                width:600px;
+                margin-left:0 px;
+                margin-top:20px;
+            }
+            #side-box{
+        
+                height:400px;
+                width:560px;
+                margin-right:100px;
+                margin-top:30px;
+                border-color:black;
+                border-width:10px;
+                float:right;
+            }
+            #side-text{
+                font-size:50px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                color:#A482CC;
+            }
+            #side-text-detail{
+                font-size:20px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                color:#A482CC;
+            }
+            #side-text-small{
+                font-size:15px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                color:#A482CC;
+            }
+            #heading{
+                text-align:center;
+                font-size:30px;
+                font-weight:bold;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+               
+            }
+            #heading-small{
+                text-align:center;
+                font-size:18px;
+                margin-left:200px;
+                margin-right:200px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+            }
+            #tool{
+                width:80px;
+                
+            }
+            #goback{
+                float:right;
+                margin-right:70px;
+                
+                text-decoration:none;
+                font-size:17px;
+                margin-top:30px;
+                border-left:2px  solid white;
+                    border-right:2px  solid white;
+                    border-top:2px  solid white;
+                    border-bottom:2px  solid white;
+                    border-radius:15px;
+                    padding-left:30px;
+                    padding-right:30px;
+                    padding-top:5px;
+                    padding-bottom:5px;
+    
+                font-weight:bold;
+                
+                color:white;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+            }
+            #goback:hover{
+                color:#A482CC;
+            }
+            #bottom-bar{
+                height:350px;
+                margin-top:50px;
+                background-color:#D4AFFD;
+                
+            }
+            #main-text-bottom{
+               margin-top:20px;
+               font-size:40px;
+               
+               color: white; 
+               font-family: "Brush Script MT", cursive;
+                text-shadow: 1px 1px 2px #082b34;
+               
+           }
+            #bottom-subbar{
+               height:90px;
+               
+               background-color:#D4AFFD;
+               
+               
+           }
+           #bottom-subbar-text{
+               height:50px;
+               text-decoration:none;
+               padding-top:30px;
+               color:white;
+               margin-left:180px;
+               
+              
+               
+           }
+           #bottombar-text{
+               
+               
+               margin-top:20px;
+               font-size:23px;
+               font-family: "Trebuchet MS", Helvetica, sans-serif;
+               font-weight:bold;
+               color:white;
+               text-decoration:none;
+           }
+           #bottombar-text2{
+               
+              
+               margin-top:30px;
+               font-size:18px;
+               color:white;
+               text-decoration:none;
+           }
+           #tool-bottom{
+               width:50px;
+               margin-top:45px;
+               
+           }
+            #bottom-bar-section{
+               width:250px;
+               padding-bottom:30px;
+               border-bottom:1px solid white;
+               float:left;
+            }
+            
+            #bottom-bar-section-2{
+               width:250px;
+               padding-bottom:30px;
+               border-bottom:1px solid white;
+               float:left;
+               margin-top:107px;
+            }
+             
+             #content-bottom{
+                  margin-left:190px;
+             }
+        
+        
+        </style>
+        
+    </head>
+    <body>
+        <div id="top-bar">
+            <div id="main-text">Web Helper<img id="tool" src="http://127.0.0.1:8000/static/tool3.png"></div>
+            <div id="top-bar2">
+                <a href="" id="top-bar2-text">Features</a>
+                <a href="" id="top-bar2-text">Why Web helper?</a>
+                <a href="" id="top-bar2-text">Download</a>
+                <a href="" id="top-bar2-text">Support</a>
+                <a href="http://127.0.0.1:8000/signin" id="top-bar2-text">Login</a>
+                <a href="http://127.0.0.1:8000/faq" id="top-bar2-text">FAQs</a>
+                <a id="goback" href="http://127.0.0.1:8000/">Try for free!</a>
+                
+                
+
+            </div>
+           
+            </div>
+        
+            <img id="web1" src="http://127.0.0.1:8000/static/web1.png"  alt="home"/>
+            <div id="side-box">
+                
+               <div id="side-text"> Be incredibly productive</div>
+               <p id="side-text-detail">Web Helper is an open source software for website blocking, internet blocking, internet speed testing,
+                   URL status and system information/Health checking available for Mac, 
+                   Windows, Android, iOS, and Chrome, used by students, developers,
+                   computer professionals to reclaim focus and productivity.</p>
+
+                   <button id="link"><div ><a id="l-text" href="http://127.0.0.1:8000/signup">Get started for free</a></div></button>
+                   <p id="side-text-small">Already have an account?<a id="side-text-small" href="http://127.0.0.1:8000/signin"> Login here</a></p>
+
+             </div>
+            <p id="heading"> Control distractions. Focus on what matters.</p>
+            <p id="heading-small">Social media, shopping, videos, games...​these apps and websites are scienti­fically engineered to keep you hooked and coming back. 
+                The cost to your productivity, ability to focus, and general well-being can be staggering. 
+                web helper gives you control. Developers get favourable environment for testing and developing
+                a software with the help of internet speed tester, System health checker. Status of the website
+                could be known beforehand with the help of URL status checker.</p>
+
+                <div id="bottom-bar">
+                    <div id="content-bottom"><div id="bottom-bar-section">
+                    <div id="main-text-bottom">Web Helper<img id="tool-bottom" src="http://127.0.0.1:8000/static/tool3.png"></div>
+                    <div id="bottombar-text">Get started</div><br>
+                    <a href="" id="bottombar-text2">Start a free trial</a><br><br>
+                    <a href="" id="bottombar-text2">Web Helper for you</a><br><br>
+                    <a href="" id="bottombar-text2">For schools</a><br><br>
+                    <a href="" id="bottombar-text2">For companies</a></div>
+                    <div id="bottom-bar-section-2">
+                    <div id="bottombar-text">Do more</div><br>
+                    <a href="" id="bottombar-text2">Get Perks</a><br><br>
+                    <a href="" id="bottombar-text2">Affiliate</a><br><br>
+                    <a href="" id="bottombar-text2">Learn</a><br><br>
+                    <a href="" id="bottombar-text2">Grow</a></div>
+                </div>
+                <div id="bottom-bar-section-2">
+                    <div id="bottombar-text">Support</div><br>
+                    <a href="" id="bottombar-text2">Contact Us</a><br><br>
+                    <a href="" id="bottombar-text2">Downloads</a><br><br>
+                    <a href="" id="bottombar-text2">Knowledge Base</a><br><br>
+                    <a href="" id="bottombar-text2">Trouble Shooting</a></div>
+            
+                    <div id="bottom-bar-section-2">
+                        <div id="bottombar-text">Company</div><br>
+                        <a href="" id="bottombar-text2">Contact Us</a><br><br>
+                        <a href="" id="bottombar-text2">About Us</a><br><br>
+                        <a href="" id="bottombar-text2">Blog</a><br><br>
+                        <a href="" id="bottombar-text2">Careers</a>
+                        </div></div>
+                        <div id="bottom-subbar"><br>
+                            <a href="" id="bottom-subbar-text">WebHelper.to 2022</a>
+                            <a href="" id="bottom-subbar-text">Privacy Policy </a>
+                            <a href="" style="margin-left:50px;"id="bottom-subbar-text">Terms of Service </a>
+                        </div>
+            </div>
+                
+  
+  
+                
+        
+        
+    </body></html>

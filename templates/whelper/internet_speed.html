@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <style type="text/css">
+            #top-bar{
+                height:150px;
+                font-color:white;
+                background-color:#D4AFFD;
+                margin:0;
+            }
+            body{
+                margin:0 ;
+                padding:0;
+    
+            }
+            #top-bar2-text{
+                margin-top:30px;
+                margin-left:20px;
+                font-size:17px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                font-weight:bold;
+                color:white;
+                text-decoration:none;
+            }
+            #top-bar2-text:hover{
+                color:#A482CC;
+                border-bottom:2px solid;
+            border-color:#A482CC;
+            padding-bottom:2px;
+            }
+            #top-bar2{
+                height:50px;
+                background-color:#D4AFFD;
+                margin-left:500px;
+                padding-top:30px;
+                
+            }
+            #main-text{
+                font-size:60px;
+                margin:35px;
+                color: white; 
+                font-family: "Brush Script MT", cursive;
+                 text-shadow: 1px 1px 2px #082b34;
+                float:left;
+            }
+            h3{
+                color:#A482CC;
+                margin-left:35px;
+            }
+            h1{
+                color:black;
+                margin-left:35px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+            }
+            #heading{
+                text-decoration : underline;
+            }
+            #tool{
+                width:80px;
+                
+            }
+            #content{
+                margin-left:150px;
+                margin-right:150px;
+                margin-top:70px;
+            }
+            p{
+                font-size:20px;
+                color:grey;
+            }
+            #side-box{
+                height:150px;
+                width:550px;
+                margin-left:210px;
+                margin-top:30px;
+                margin-bottom:30px;
+                border:2px 2px 2px 2px;
+                border-color:#D4AFFD;
+                border-radius:20px;
+                border-style:solid;
+                
+            }
+            #speed{
+                width:45px;
+                margin-left:10px;
+                }
+                #goback{
+                    float:right;
+                    margin-right:70px;
+                    
+                    text-decoration:none;
+                    font-size:17px;
+                    margin-top:30px;
+                    border-left:2px  solid white;
+                        border-right:2px  solid white;
+                        border-top:2px  solid white;
+                        border-bottom:2px  solid white;
+                        border-radius:15px;
+                        padding-left:30px;
+                        padding-right:30px;
+                        padding-top:5px;
+                        padding-bottom:5px;
+        
+                    font-weight:bold;
+                    
+                    color:white;
+                    font-family: "Trebuchet MS", Helvetica, sans-serif;
+        
+                }
+                #goback:hover{
+                    color:#A482CC;
+                }
+        
+        </style>
+    </head>    
+</body>
+<div id="top-bar">
+    <div id="main-text">Web Helper<img id="tool" src="http://127.0.0.1:8000/static/tool3.png"></div>
+    
+    <div id="top-bar2">
+        <a href="http://127.0.0.1:8000/homey" id="top-bar2-text">Home</a>
+        <a href="" id="top-bar2-text">Features</a>
+        <a href="" id="top-bar2-text">Download</a>
+        <a href="" id="top-bar2-text">Support</a>
+        <a href="http://127.0.0.1:8000/signin" id="top-bar2-text">Logout</a>
+        <a href="http://127.0.0.1:8000/faq" id="top-bar2-text">FAQs</a>
+        <a id="goback" href="http://127.0.0.1:8000/">Try for free!</a>
+        
+
+    </div></div>
+    <div id="content">
+    <h1 align="center">Internet Speed Test<img id="speed" src="http://127.0.0.1:8000/static/speed1.jpg"></h1>
+    <p align="center">It is important that you check internet speed from time to time. Since nowadays, 
+        most of us perform our daily work commitments, study online, watch OTT content, use 
+        social media and so much more on our devices, they can often clutter your overall 
+        internet speed by storing lots of cache and internet cookies which can go on to make 
+        you think ‘Oh I need to check my internet speed’.The online speed test also helps to 
+        check broadband speed of your current service provider.If you are constantly worried 
+        about ‘why my net speed test is slow ?’, or ‘if my wifi speed is as fast as it was initially 
+        promised by my internet service provider ?’, then you should definitely be testing your 
+        network speed.Broadband speed can be affected due to a number of reasons, such as active 
+        VPN connection, weather conditions, your computer/device settings, too much load on the 
+        servers and a range of other external factors. Your speed test results can also vary 
+        according to the time of the day.</p>
+<div align="center" id="side-box">
+<h3 align="center">Download Speed : {{ d }} Bytes per second</h3>
+<h3 align="center">Upload Speed : {{ u }} Bytes per second</h3>
+<h3 align="center">Ping Speed : {{ p }} mili second</h3></div></div>
+</body></html>
